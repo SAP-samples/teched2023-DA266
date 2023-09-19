@@ -1,14 +1,16 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2023-DA266)](https://api.reuse.software/info/github.com/SAP-samples/teched2023-DA266)
 
-# Session ID - Session Title
+# DA266 - Federate Queries to Databricks from SAP Datasphere for Real-Time Analytics
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2022 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2023 session called DA266 - Federate Queries to Databricks from SAP Datasphere for Real-Time Analvtics.
 
 ## Overview
 
-This session introduces attendees to...
+This session introduces attendees to analyze Sales order Monthly order fill rate. Order fill rate is the number of product units initially shipped as a percentage of all units ordered. An order fill rate can apply to both inbound units for a warehouse as well as outbound units for distributors and carriers.
+
+You can see how to do unified analytics by creating unified business models that combine federated non-SAP data from Databricks with SAP business data to derive real-time business insights.  
 
 ## Requirements
 
