@@ -30,7 +30,7 @@ The architecture below highlights the main purpose of this integration, federati
 We do this to achieve richer analytics by incorporating data that would otherwise remain unused in 3rd party systems with the already valuable insights delivered by SAP data. ​
 We show the different mechanisms by which data can be federated and used in SAP Analytics Cloud without being replicated.​
 
-​![Final View](./images/finalview.png)
+​![Final View](./images/architecture.png)
 
 ## Summary
 
