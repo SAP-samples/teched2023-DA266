@@ -17,39 +17,31 @@ Your objective is to create a table that accurately displays the Order Details i
 
 After assigning the dataset, you can start building your first charts
 
-1. 👉 Drag and drop from the left panel a **Chart** widget into the first container
+1. 👉 Drag and drop from the left panel a **Table** widget into the third container
 
-   ![SAC Chart](images/sacchart1drag.png)
+   ![SAC Chart](images/table.png)
 
-2. 👉 Select the chart and add the following properties in a **Builder** on the right panel 
-    - Dimensions: **SalesOrganization**
+2. 👉 Select the table and add the following properties in a **Builder** on the right panel 
+    - Rows: **SalesOrganization**
 
-   ![SAC Chart](images/chart1properties.png)
+   ![SAC Chart](images/rowsselect.png)
 
-3. 👉 Add a new **Calculation** as a **Measure**
-    - Type: **Calculated Measure**
-    - Name: **Short Qty**
-    - Formula: **["unified_sales_delivery_view_model":OrderQuantity"] - ["unified_sales_delivery_view_model":DeliveredQuantity]** (This will be the Analytic Model Name which you created in SAP Datashpere in Exercise 2)
+3. 👉 Add a new **Measures** from the **Filters** section
+    - Click on Measures in Filter section.
+    - Select **DeliveredQuantity**, **Case Fill %**, **Short Qty** and **OrderQuantity**
 
-   ![SAC Chart](images/chartcalculatedc.png)
+   ![SAC Chart](images/measures.png)
 
-4. 👉 Add a **Threshold****
-    - Click on the Chart, scroll down to the Chart Add-Ons section and click on Threshold
-    - Add Measure as **Short Qty**
-    - Add **Range** (as shown in the screenshot below)
-    - Click on **Apply**
+4. 👉 Add predefined Threshold to **Short Qty**
+    - Right Click on Short Qty column in the table
+    - Click on Threshold, then select Story Defined.
+    - Select the Short Qty option
 
-   ![SAC Chart](images/threshold.png)
+   ![SAC Chart](images/thresholdtotable.png)
 
-5. 👉 Make Threshold visible on the Chart (refer to the screenshot)
-    - In Measure section, click on **Threshold Icon** of **Short Qty** 
-    - Click on **Show Threshold** and select **Story Defined**, then select **Short Qty**
+6. 👉 Adjust the table according to the panel and Give some proper name ("Order Details") and your table is ready.
 
-   ![SAC Chart](images/showthreshold.png)
-
-6. 👉 Give some proper name ("Short Qty per Sales Organization") and your first chart is ready.
-
-   ![SAC Chart](images/sacchart1.png)
+   ![SAC Chart](images/sactable.png)
 
 ## Congratulations!
 
