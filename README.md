@@ -30,7 +30,7 @@ Provide the exercise content here directly in README.md using [markdown](https:/
 - [Exercise 4 - Creating the Charts in Sales Order Management Dashboard for displaying Data](exercises/ex4/)
     - [Exercise 4.1 - Creating the first Chart for displaying **Short Qty per Sales Organization**](exercises/ex4#exercise-41-creating-the-first-chart-for-displaying-quantity-per-product-category)
     - [Exercise 4.2 - Creating another Chart for displaying **Monthly Case Fill- 12 Month Trend**](exercises/ex4#exercise-42-creating-another-chart-for-displaying-discount-per-product-category)
-- [Exercise 6 - Creating the Table in Sales Order Management Dashboard for displaying Data](exercises/ex5/)
+- [Exercise 5 - Creating the Table in Sales Order Management Dashboard for displaying Data](exercises/ex5/)
 - [Exercise 6 - Creating **Input Controls** for the dashboard](exercises/ex6/)
 
 ## Contributing
