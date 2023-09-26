@@ -32,14 +32,6 @@ Provide the exercise content here directly in README.md using [markdown](https:/
     - [Exercise 4.2 - Creating another Chart for displaying **Monthly Case Fill- 12 Month Trend**](exercises/ex4#exercise-42-creating-another-chart-for-displaying-discount-per-product-category)
 - [Exercise 6 - Creating the Table in Sales Order Management Dashboard for displaying Data](exercises/ex5/)
 - [Exercise 6 - Creating **Input Controls** for the dashboard](exercises/ex6/)
-  
-**OR** Link to the Tutorial Navigator for example...
-
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
-
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
