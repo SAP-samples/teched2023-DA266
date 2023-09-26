@@ -20,24 +20,24 @@ Finally, after having the charts, you can add some input controls to filter the 
 
 1. 👉 Drag and drop from the left panel **Input Control** widget into the top container
 
-   ![SAC Chart](images/inputcontrol2.png)
+2. 👉 Choose the **SalesOrganization** as a dimension and select all members
 
-2. Choose the **DATE** as a dimension and give a fixed range for the filter
+   ![SAC Chart](images/ic1.png)
 
-   ![SAC Chart](images/daterange.png)
+3. 👉 Adjust the Input Control by expanding it.
 
-3. Repeat steps 1 and 2 to create three other **Input Controls**
+   ![SAC Chart](images/ic2.png)
+
+3. Let's add another **Input Control** widget. Choose the **OrderCreationMonth** as a dimension, filter by Members and select all members
    
-   - Input control for filtering the **Country**
-   - Input control for filtering the **Product Category**
-   - Input control for filtering the **Product Variant**
+   ![SAC Chart](images/ic3.png)
 
-   ![SAC Chart](images/ic_all.png)
 
-    After defining those filters you can filter the dashboard by "SalesOrganization" and "OrderCreationMonth". This allows for deeper insights into the data by allowing you to view specific subsets of information based on your needs.
+4. After defining those filters you can filter the dashboard by "SalesOrganization" and "OrderCreationMonth". This allows for deeper insights into the data by allowing you to view specific subsets of information based on your needs.
+   ![SAC Chart](images/inputcontrol.png)
 
 4. Save the **Story** e.g. with a name "TECHED_\<USER_NO>"
-
+   ![SAC Chart](images/savestory.png)
 ## Result
 
 Below you can find the final result of your dashboard:
