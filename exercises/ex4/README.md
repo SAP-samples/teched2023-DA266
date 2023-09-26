@@ -1,6 +1,6 @@
 # Exercise 4 - Creating the Charts in Sales Order Management Dashboard for displaying Data
 
-## Exercise 5.1 Creating the first Chart for displaying **Quantity per Product Category**
+## Exercise 4.1 Creating the first Chart for displaying **Quantity per Product Category**
 
 This exercise focuses on creating the first chart for displaying **"Short Qty per Sales Organization"** in a dashboard. The purpose of this chart is to provide an overview of the Quantities of various products with it's sales organization, allowing users to identify shortage of any item.
 
@@ -54,7 +54,7 @@ After assigning the dataset, you can start building your first charts
    ![SAC Chart](images/sacchart1.png)
 
 
-## Exercise 5.2 Creating another Chart for displaying **Discount per Product Category**
+## Exercise 4.2 Creating another Chart for displaying **Discount per Product Category**
 
 This exercise focuses on creating another chart for displaying **"Monthly Case Fill- 12 Month Trend"** in the dashboard. The purpose of this chart is to provide an overview of the sales organization with their Case Fill % of 12 months.
 
@@ -79,31 +79,32 @@ Similar to the previous approach create another chart to visualize the **Discoun
    ![SAC Chart](images/sacchart2drag.png)
 
 2. 👉 Select the chart and add the following properties in a **Builder** on the right panel 
-    - Dimensions: **Product_Category_Enhanced_Ecommerce**
+    - Currently Selected Chart: Line
+    - Dimensions: **OrderCreationMonth**
 
-   ![SAC Chart](images/chart2properties.png)
+   ![SAC Chart](images/chartproperties.png)
 
 3. 👉 Add a new **Calculation** as a **Measure**
     - Type: **Calculated Measure**
-    - Name: **DiscountC**
-    - Formula: **["AM_Product_Sales_Country_Discount":discount]** (This will be the Analytic Model Name which you created in SAP Datashpere in Exercise 1)
+    - Name: **Case Fill %**
+    - Formula: **[" [#Short Qty] / ["unified_sales_delivery_view_model1":OrderQuantity] \* 100"]** (This will be the Analytic Model Name which you created in SAP Datashpere in Exercise 2)
 
    ![SAC Chart](images/chart2calculatedc.png)
 
-4. 👉 Format it as a **Percentage****
-    > Note: Uncheck the *Use unit of underlying measures* to activate the percentage option in Scale Dropdown
+4. 👉 Add color to the chart by adding a dimension
+    - In Builder, go the **Color** section and click on **Add Dimension/Threshold**
+    - In the Dimensions drop down, select SalesOrganization
 
-   ![SAC Chart](images/chart2formatt.png)
+   ![SAC Chart](images/colordimension.png)
 
-5. 👉 Click on the **...** "More Actions" and rank the **Product_Category_Enhanced_Ecommerce** as **Top 10**, to display top products per category.
+5. 👉 Format the styling of the **legends** in line chart
+    - Right click on any of the legend, then click on **Edit Styling**
+    - Again click on the legend to open Chart, Legends Styling View
+    - In **Styling** View, under the legends section, select **Below Chart** from the drop down.
 
-   ![SAC Chart](images/char2top10.png)
+   ![SAC Chart](images/legendposition.png)
 
-6. 👉 Exclude the **(not set)** and **${productitem.product.origCatName}** attributes by selecting them and pressing **X**
-
-   ![SAC Chart](images/char2exclude.png)
-
-7. 👉 Give some proper name ("Discount per Product Category") and your second chart is ready. Optionally you can add a reference line for the average discount.
+7. 👉 Give some proper name ("Monthly Case Fill: 12 Month Trend") and your second chart is ready.
 
    ![SAC Chart](images/sacchart2.png)
 
