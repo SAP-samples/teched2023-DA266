@@ -21,13 +21,17 @@ The requirements to follow the exercises in this repository are...
 Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
 - [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
-
+- [Exercise 1 - Build and expose data views on SAP Datasphere](exercises/ex1/)
+    - [Exercise 1.1 - Creating a view "Unified Sales Delivery View"](exercises/ex1#exercise-11-sub-exercise-1-description)
+- [Exercise 2 - Creating a new analytical model for "Unified Sales Delivery View"](exercises/ex2/)
+- [Exercise 3 - Create a Sales Order Management Dashboard on SAP Analytics Cloud](exercises/ex3/)
+    - [Exercise 3.1 - Creating the Layout for the Sales Order Management Dashboard](exercises/ex3#exercise-31-creating-the-layout-for-the-sales-order-management-dashboard)
+    - [Exercise 3.2 - Assigning the data from SAP Datasphere to Dashboard](exercises/ex3#exercise-32-assigning-the-data-from-sap-datasphere-to-dashboard)
+- [Exercise 4 - Creating the Charts in Sales Order Management Dashboard for displaying Data](exercises/ex4/)
+    - [Exercise 4.1 - Creating the first Chart for displaying **Short Qty per Sales Organization**](exercises/ex4#exercise-41-creating-the-first-chart-for-displaying-quantity-per-product-category)
+    - [Exercise 4.2 - Creating another Chart for displaying **Monthly Case Fill- 12 Month Trend**](exercises/ex4#exercise-42-creating-another-chart-for-displaying-discount-per-product-category)
+- [Exercise 6 - Creating the Table in Sales Order Management Dashboard for displaying Data](exercises/ex5/)
+- [Exercise 6 - Creating **Input Controls** for the dashboard](exercises/ex6/)
   
 **OR** Link to the Tutorial Navigator for example...
 

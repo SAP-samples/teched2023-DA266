@@ -1,6 +1,6 @@
 # Exercise 4 - Creating the Charts in Sales Order Management Dashboard for displaying Data
 
-## Exercise 4.1 Creating the first Chart for displaying **Quantity per Product Category**
+## Exercise 4.1 Creating the first Chart for displaying **Short Qty per Sales Organization**
 
 This exercise focuses on creating the first chart for displaying **"Short Qty per Sales Organization"** in a dashboard. The purpose of this chart is to provide an overview of the Quantities of various products with it's sales organization, allowing users to identify shortage of any item.
 
@@ -54,7 +54,7 @@ After assigning the dataset, you can start building your first charts
    ![SAC Chart](images/sacchart1.png)
 
 
-## Exercise 4.2 Creating another Chart for displaying **Discount per Product Category**
+## Exercise 4.2 Creating another Chart for displaying **Monthly Case Fill- 12 Month Trend**
 
 This exercise focuses on creating another chart for displaying **"Monthly Case Fill- 12 Month Trend"** in the dashboard. The purpose of this chart is to provide an overview of the sales organization with their Case Fill % of 12 months.
 
