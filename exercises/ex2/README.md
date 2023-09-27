@@ -46,4 +46,4 @@ You've now created two views and one analytical model in SAP Datashpere. The ana
 
 Congratulations on completing your Exercise 3! You have successfully created a new analytical model for "Unified Sales Delivery View Model"!
 
-Let's Continue to - [Exercise 3 - Creating the Layout for the Category Management Dashboard](../ex3/README.md)
+Let's Continue to - [Exercise 3 - Creating the Layout for the Sales Order Management Dashboard](../ex3/README.md)

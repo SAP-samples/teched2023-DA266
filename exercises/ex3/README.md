@@ -22,7 +22,7 @@ This exercise focuses on creating the layout for a Sales Order Management Dashbo
     ![New View](images/newcanvas.png)
 
 
-3. 👉 Drag and drop a **Text** field to give the dashboard name *"Product Category over Time"*
+3. 👉 Drag and drop a **Text** field to give the dashboard name *"Sales Order Management Dashboard"*
 
 4. 👉 Drag and drop 5 **Panels** into the canvas to shape a layout for the charts (see the screenshot below)
  

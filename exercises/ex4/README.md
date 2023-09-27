@@ -60,9 +60,9 @@ This exercise focuses on creating another chart for displaying **"Monthly Case F
 
 To complete this exercise, you will need to follow these steps:
 
-1. Select the appropriate chart type for displaying quantity by product category, such as a bar chart or a pie chart.
+1. Select the appropriate chart type for displaying, such as a bar chart or a pie chart.
 2. Choose the appropriate visualization settings, such as the color scheme, labels, and axes, to ensure that the data is easy to read and visually appealing.
-3. Select the appropriate fields from the data source to display discount by product category.
+3. Select the appropriate fields from the data source to display.
 4. Configure any necessary filters or sorting options to ensure that the data is displayed accurately and in the desired order.
 5. Optionally you can add a reference line for the average discount.
 
@@ -72,7 +72,7 @@ Your objective is to create a chart that accurately displays the Monthly Case Fi
 
 ### Step by Step Solution Guide
 
-Similar to the previous approach create another chart to visualize the **Discount** per Product Category**
+Similar to the previous approach create another chart to visualize the **"Monthly Case Fill- 12 Month Trend"**
 
 1. 👉 Drag and drop from the left panel a **Chart** widget into the second container
 
