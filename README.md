@@ -14,11 +14,19 @@ You can see how to do unified analytics by creating unified business models that
 
 ## Requirements
 
-The requirements to follow the exercises in this repository are...
+The requirements/Existing SetUp to follow the exercises in this repository are:
+1. A [SAP Datasphere System](https://www.sap.com/india/products/technology-platform/datasphere.html), configured with spaces and users with assigned roles. 
+To get started, sign up for your [SAP Datasphere free tier tenant.](https://www.sap.com/products/technology-platform/datasphere/trial.html)
+
+2. A [SAP Analytics Cloud account](https://www.sap.com/india/products/technology-platform/cloud-analytics.html) with live data connections to SAP Datasphere system to access SAP Datasphere Analytic Model or Perspective within SAP Analytics Cloud.
+To get started, sign up for your [SAP Analytics Cloud Trial.](https://www.sap.com/products/technology-platform/cloud-analytics/trial.html)
+
+3. A [Databricks workspace](https://docs.databricks.com/en/administration-guide/workspace/index.html) in any of the three supported hyperscalers
+([AWS](https://aws.amazon.com/solutions/partners/databricks/),
+[Azure](https://learn.microsoft.com/en-us/azure/databricks/marketplace/),
+[GCP](https://cloud.google.com/databricks)) with a Databricks cluster. for cluster creation you can follow the article [Create a cluster] (https://docs.gcp.databricks.com/clusters/configure.html).
 
 ## Exercises
-
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
 
 - [Getting Started](exercises/ex0/)
 - [Exercise 1 - Build and expose data views on SAP Datasphere](exercises/ex1/)
