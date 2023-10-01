@@ -24,7 +24,7 @@ To get started, sign up for your [SAP Analytics Cloud Trial.](https://www.sap.co
 3. A [Databricks workspace](https://docs.databricks.com/en/administration-guide/workspace/index.html) in any of the three supported hyperscalers
 ([AWS](https://aws.amazon.com/solutions/partners/databricks/),
 [Azure](https://learn.microsoft.com/en-us/azure/databricks/marketplace/),
-[GCP](https://cloud.google.com/databricks)) with a Databricks cluster. for cluster creation you can follow the article [Create a cluster] (https://docs.gcp.databricks.com/clusters/configure.html).
+[GCP](https://cloud.google.com/databricks)) with a Databricks cluster. for cluster creation you can follow the article [Create a cluster](https://docs.gcp.databricks.com/clusters/configure.html).
 
 ## Exercises
 
