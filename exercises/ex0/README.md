@@ -19,7 +19,10 @@ To analyze sales order management you can combine external source systems like D
 To achieve this we have created data sets of Databricks. In Databricks, data sets are pre-loaded and publicly accessible data sets. You can use them to develop and test your queries, and/or gain insights into a variety of topics.
 
 ## Databricks Model Overview
-// TODO
+​![databricks tables](./images/deltalake.png)
+
+## SAP S/4HANA Sample Sales Data loaded in SAP Datasphere
+​![ds tables](./images/dstables.png)
 
 ## Overview - Establishing live data integration between Databricks and SAP Datasphere
 // TODO
