@@ -27,6 +27,8 @@ To get started, sign up for your [SAP Analytics Cloud Trial.](https://www.sap.co
 [Azure](https://learn.microsoft.com/en-us/azure/databricks/marketplace/),
 [GCP](https://cloud.google.com/databricks)) with a Databricks cluster. for cluster creation you can follow the article [Create a cluster](https://docs.gcp.databricks.com/clusters/configure.html).
 
+4. A [Data Provisioning Agent](https://help.sap.com/docs/SAP_DATASPHERE/9f804b8efa8043539289f42f372c4862/8f6185069a51404ebf23c684fee8cf39.html?q=dp%20agent) is installed and connected to SAP Datasphere. Make sure the DP Agent system can talk to the Databricks cluster. 
+
 ## Exercises
 
 - [Getting Started](exercises/ex0/)
