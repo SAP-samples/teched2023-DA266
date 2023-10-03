@@ -33,10 +33,12 @@ Finally, after having the charts, you can add some input controls to filter the 
    ![SAC Chart](images/ic3.png)
 
 
-4. After defining those filters you can filter the dashboard by "SalesOrganization" and "OrderCreationMonth". This allows for deeper insights into the data by allowing you to view specific subsets of information based on your needs.
+5. After defining those filters you can filter the dashboard by "SalesOrganization" and "OrderCreationMonth". This allows for deeper insights into the data by allowing you to view specific subsets of information based on your needs.
+
    ![SAC Chart](images/inputcontrol.png)
 
 4. Save the **Story** e.g. with a name "TECHED_\<USER_NO>"
+
    ![SAC Chart](images/savestory.png)
 ## Result
 
