@@ -34,7 +34,7 @@ When all the steps were completed, the status of the DP agent will be displayed 
 
 <img src="./images/dpagent.png" width="70%" height="70%" />
 
-Connections provide access to data from a wide range of sources, cloud as well as on-premise sources, SAP and Non-SAP sources, and partner tools. They allow space members to use entities from the connected source to acquire, prepare and access data from those sources in SAP Datasphere.
+[Connections](https://help.sap.com/docs/SAP_DATASPHERE/be5967d099974c69b77f4549425ca4c0/eb85e157ab654152bd68a8714036e463.html) provide access to data from a wide range of sources, cloud as well as on-premise sources, SAP and Non-SAP sources, and partner tools. They allow space members to use entities from the connected source to acquire, prepare and access data from those sources in SAP Datasphere.
 
 In the "Connections" section of SAP Datasphere we already created live connectivity to Databricks by providing 
 1. Any business and technical name for connection information 
