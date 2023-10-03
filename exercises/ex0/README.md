@@ -25,7 +25,29 @@ To achieve this we have created data sets of Databricks. In Databricks, data set
 ​![ds tables](./images/dstables.png)
 
 ## Overview - Establishing live data integration between Databricks and SAP Datasphere
-// TODO
+
+In order to establish live data integration between SAP Datasphere and Databricks SQL, the Data Provisioning Agent(DP agent) has to be installed on a virtual machine and configured. For DP agent installation, you can refer the [Install the Data Provisioning Agent](https://help.sap.com/docs/SAP_DATASPHERE/9f804b8efa8043539289f42f372c4862/8f6185069a51404ebf23c684fee8cf39.html) link. 
+
+To connect the DP agent to the SAP HANA Cloud tenant of SAP Datasphere, you can follow the [Connect and Configure the Data Provisioning Agent](https://help.sap.com/docs/SAP_DATASPHERE/9f804b8efa8043539289f42f372c4862/e87952d7c656477cb5558e5c2f44ae9c.html) link. 
+When all the steps were completed, the status of the DP agent will be displayed as “Connected”. In our case, the DP agent is DSTechED.
+
+​![dbagent](./images/dpagent.png)
+
+Connections provide access to data from a wide range of sources, cloud as well as on-premise sources, SAP and Non-SAP sources, and partner tools. They allow space members to use entities from the connected source to acquire, prepare and access data from those sources in SAP Datasphere.
+
+In the "Connections" section of SAP Datasphere we already created live connectivity to Databricks by providing 
+1. Any business and technical name for connection information 
+2. Connection details with JDBC Driver Class and URL.
+3. Databricks user account or token credential.
+4. Data provisioning agent that we have activated already.
+
+This connection is used in the next steps of Hands-on challenges to create data views on remote tables from Google BigQuery.
+
+​![dbagent](./images/connection.png)
+
+​![dbagent](./images/connections_list.png)
+
+> IMPORTANT: Please note, that for this hands-on session, you will not have permission to see the connection in your account like shown in a image below, nevertheless, you can explore how such a connection can be established.
 
 ## Solution Overview
 
