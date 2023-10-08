@@ -41,7 +41,7 @@ This exercise focuses on adding the **"Product_Sales_Country_Discount"** view fr
 2.  👉 Select the connection **SAP Datasphere** as a source, your space and the dataset
     - Connection: **PAADWC**
     - Space: **TECHED_\<USER_NO>**
-    - Dataset: **Product_Sales_Country_Discount**
+    - Dataset: **unified_sales_delivery_view_model**
   
     ![SAC Data](images/select_datasphere.png)
 
