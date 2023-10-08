@@ -34,7 +34,7 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
 
       ![Model](images/ModelName.png)
 
-5. 👉 Save and deploy the **unified_sales_delivery_view_mode** analytical model, which will be further used in SAC to visualize data
+5. 👉 Save and deploy the **unified_sales_delivery_view_model** analytical model, which will be further used in SAC to visualize data
 
       ![Model](images/SaveDeployModel.png)
 
