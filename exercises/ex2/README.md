@@ -40,7 +40,7 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
 
 ## Summary
 
-You've now created two views and one analytical model in SAP Datashpere. The analytical model "Unified Sales Delivery View Model" will be utilized by SAP Analytics Cloud to create a dashboard. This analytical model provides insights into the sales of products by country and the discounts offered, which can be used to inform strategic business decisions.
+You've now created one view and one analytical model in SAP Datashpere. The analytical model "Unified Sales Delivery View Model" will be utilized by SAP Analytics Cloud to create a dashboard. This analytical model provides insights into the sales of products by country and the discounts offered, which can be used to inform strategic business decisions.
 
 ## Congratulations!
 
