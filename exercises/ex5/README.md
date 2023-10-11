@@ -23,6 +23,7 @@ After assigning the dataset, you can start building your first charts
 
 2. 👉 Select the table and add the following properties in a **Builder** on the right panel 
     - Rows: **SalesOrganization**
+    - Columns: **Measures**
 
    ![SAC Chart](images/rowsselect.png)
 

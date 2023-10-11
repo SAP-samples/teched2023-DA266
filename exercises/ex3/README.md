@@ -39,12 +39,13 @@ This exercise focuses on adding the **"unified_sales_delivery_view_model"** mode
     ![SAC Data](images/sacdata.png)
 
 2.  👉 Select the connection **SAP Datasphere** as a source, your space and the dataset
-    - Connection: **PAADWC**
+    - Connection: **TECHED2023**
     - Space: **TECHED_\<USER_NO>**
     - Dataset: **unified_sales_delivery_view_model**
   
     ![SAC Data](images/select_datasphere.png)
 
+You have now successfully imported Data from your SAP Datashpere instance to SAC. 
 
 ## Congratulations!
 
