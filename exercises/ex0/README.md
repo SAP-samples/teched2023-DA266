@@ -21,6 +21,8 @@ To achieve this we have created data sets of Databricks. In Databricks, data set
 ## Databricks Model Overview
 ​![databricks tables](./images/deltalake.png)
 
+To find out more about Databricks, its features, and how we configured it for our hands-on scenario, you can click through the [guide](https://education.hana.ondemand.com/education/pub/techtemped/index.html?show=project!PR_BA312F3846C2629C:demo)
+
 ## SAP S/4HANA Sample Sales Data loaded in SAP Datasphere
 ​![ds tables](./images/dstables.png)
 
@@ -31,6 +33,8 @@ In order to establish live data integration between SAP Datasphere and Databrick
 To connect the DP agent to the SAP HANA Cloud tenant of SAP Datasphere, you can follow the [Connect and Configure the Data Provisioning Agent](https://help.sap.com/docs/SAP_DATASPHERE/9f804b8efa8043539289f42f372c4862/e87952d7c656477cb5558e5c2f44ae9c.html) link.
 
 When all the steps were completed, the status of the DP agent will be displayed as “Connected”. In our case, the DP agent is DSTechED.
+
+To understand how to Establishing live data integration between Databricks and SAP Datasphere you can click through the [guide](https://education.hana.ondemand.com/education/pub/techtemped/index.html?show=project!PR_393147F727A99DA2:demo)
 
 <img src="./images/dpagent.png" width="70%" height="70%" />
 
