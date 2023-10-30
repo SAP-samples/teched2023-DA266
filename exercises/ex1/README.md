@@ -30,7 +30,7 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
 
       ![New View](images/newview.png)
 
-3. 👉 Navigate to the **Shared Objects** from Repository, expand the tables and drag and drop the following 3 views into the canvas
+3. 👉 Navigate to the **Shared Objects** from Repository, expand the tables and drag and drop the following 2 tables into the canvas
 
     - sales_document_table
     - delivery_document_table
@@ -63,7 +63,16 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
 
     ![New View](images/factmeasure.png)
 
-9. 👉 Save and deploy the **unified_sales_delivery_view** view
+9. 👉 Now as we have successfully created the new view "unified_sales_delivery_view".
+
+    To view the final data in **unified_sales_delivery_view** view, click on the Data Viewer Icon.
+
+    ![New View](images/finalview3.png)
+
+    > Note: Incase of **Delayed Data Viewing** message, scroll down and click on **View Data**, in order to load the data.
+    > ![New View](images/viewdata.png)
+
+10. 👉 Save and deploy the **unified_sales_delivery_view** view
 
     ![New View](images/savedeploy.png)
 

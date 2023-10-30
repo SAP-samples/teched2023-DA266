@@ -30,7 +30,7 @@ This exercise focuses on creating the layout for a Sales Order Management Dashbo
 
 ## Exercise 3.2 Assigning the data from SAP Datasphere to Dashboard
 
-This exercise focuses on adding the **"Product_Sales_Country_Discount"** view from SAP Datasphere as a data source in SAP SAC.
+This exercise focuses on adding the **"unified_sales_delivery_view_model"** model from SAP Datasphere as a data source in SAP SAC.
 
 ### Step by Step Solution Guide
 
@@ -39,12 +39,13 @@ This exercise focuses on adding the **"Product_Sales_Country_Discount"** view fr
     ![SAC Data](images/sacdata.png)
 
 2.  👉 Select the connection **SAP Datasphere** as a source, your space and the dataset
-    - Connection: **PAADWC**
+    - Connection: **TECHED2023**
     - Space: **TECHED_\<USER_NO>**
-    - Dataset: **Product_Sales_Country_Discount**
+    - Dataset: **unified_sales_delivery_view_model**
   
     ![SAC Data](images/select_datasphere.png)
 
+You have now successfully imported Data from your SAP Datashpere instance to SAC. 
 
 ## Congratulations!
 

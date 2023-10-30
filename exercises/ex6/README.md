@@ -33,10 +33,12 @@ Finally, after having the charts, you can add some input controls to filter the 
    ![SAC Chart](images/ic3.png)
 
 
-4. After defining those filters you can filter the dashboard by "SalesOrganization" and "OrderCreationMonth". This allows for deeper insights into the data by allowing you to view specific subsets of information based on your needs.
+5. After defining those filters you can filter the dashboard by "SalesOrganization" and "OrderCreationMonth". This allows for deeper insights into the data by allowing you to view specific subsets of information based on your needs.
+
    ![SAC Chart](images/inputcontrol.png)
 
 4. Save the **Story** e.g. with a name "TECHED_\<USER_NO>"
+
    ![SAC Chart](images/savestory.png)
 ## Result
 
@@ -45,10 +47,6 @@ Below you can find the final result of your dashboard:
  ![SAC Result](images/sacstory.png)
 
 You can add more charts to the dashboard at any time to extend its capabilities and better meet the business requirements. The SAP Analytics Cloud platform offers a wide range of chart options, making it possible to display data in a variety of ways to suit different needs and preferences.
-
->An example of more extensive dashboard can be found below
-
- ![SAC Result](images/result2.png)
 
 ## Congratulations!
 

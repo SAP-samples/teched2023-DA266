@@ -31,7 +31,7 @@ After assigning the dataset, you can start building your first charts
 3. 👉 Add a new **Calculation** as a **Measure**
     - Type: **Calculated Measure**
     - Name: **Short Qty**
-    - Formula: **["unified_sales_delivery_view_model":OrderQuantity"] - ["unified_sales_delivery_view_model":DeliveredQuantity]** (This will be the Analytic Model Name which you created in SAP Datashpere in Exercise 2)
+    - Formula: **["unified_sales_delivery_view_model":OrderQuantity] - ["unified_sales_delivery_view_model":DeliveredQuantity]** (This will be the Analytic Model Name which you created in SAP Datashpere in Exercise 2)
 
    ![SAC Chart](images/chartcalculatedc.png)
 
@@ -87,7 +87,7 @@ Similar to the previous approach create another chart to visualize the **"Monthl
 3. 👉 Add a new **Calculation** as a **Measure**
     - Type: **Calculated Measure**
     - Name: **Case Fill %**
-    - Formula: **[" [#Short Qty] / ["unified_sales_delivery_view_model1":OrderQuantity] \* 100"]** (This will be the Analytic Model Name which you created in SAP Datashpere in Exercise 2)
+    - Formula: **[#Short Qty]/["unified_sales_delivery_view_model":OrderQuantity]\*100** (This will be the Analytic Model Name which you created in SAP Datashpere in Exercise 2)
 
    ![SAC Chart](images/chart2calculatedc.png)
 

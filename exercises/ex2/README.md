@@ -34,13 +34,13 @@ Refer to the provided solution below for a detailed, step-by-step guide on how t
 
       ![Model](images/ModelName.png)
 
-5. 👉 Save and deploy the **AM_Product_Sales_Country_Discount** analytical model
+5. 👉 Save and deploy the **unified_sales_delivery_view_model** analytical model, which will be further used in SAC to visualize data
 
       ![Model](images/SaveDeployModel.png)
 
 ## Summary
 
-You've now created two views and one analytical model in SAP Datashpere. The analytical model "Unified Sales Delivery View Model" will be utilized by SAP Analytics Cloud to create a dashboard. This analytical model provides insights into the sales of products by country and the discounts offered, which can be used to inform strategic business decisions.
+You've now created one view and one analytical model in SAP Datashpere. The analytical model "Unified Sales Delivery View Model" will be utilized by SAP Analytics Cloud to create a dashboard. This analytical model provides insights into the sales of products by country and the discounts offered, which can be used to inform strategic business decisions.
 
 ## Congratulations!
 
